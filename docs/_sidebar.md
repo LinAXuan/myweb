@@ -1,28 +1,27 @@
 - 第一章
 
-  - [第一章](quickstart.md)
-  - [Writing more pages](more-pages.md)
-  - [Custom navbar](custom-navbar.md)
-  - [Cover page](cover.md)
+  - [案例1](quickstart.md)
+  - [案例2](more-pages.md)
+  - [案例3](custom-navbar.md)
+  - [案例4](cover.md)
 
 - 第二章
 
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
-  - [Emoji](emoji.md)
-
+  - [案例1](quickstart.md)
+  - [案例2](more-pages.md)
+  - [案例3](custom-navbar.md)
+  - [案例4](cover.md)
+  - [案例4](cover.md)
+  - [案例4](cover.md)
+  - [案例4](cover.md)
 - 第三章
 
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode (PWA)](pwa.md)
-  - [Server-Side Rendering (SSR)](ssr.md)
-  - [Embed Files](embed-files.md)
+  - [案例1](quickstart.md)
+  - [案例2](more-pages.md)
+  - [案例3](custom-navbar.md)
+  - [案例4](cover.md)
+  - [案例4](cover.md)
+  - [案例4](cover.md)
+  - [案例4](cover.md)
 
 
