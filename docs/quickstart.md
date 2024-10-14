@@ -28,8 +28,9 @@
 </body>
 </html>
 ```
-最终效果
-<img src="images/1.png" alt="">
+### 最终效果
+<a href="html/诗歌.html" target="_blank">点击这里访问网站</a>
+
 
 
 ## Initialize
