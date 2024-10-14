@@ -1,11 +1,11 @@
-- Getting started
+- 第一章
 
   - [第一章](quickstart.md)
   - [Writing more pages](more-pages.md)
   - [Custom navbar](custom-navbar.md)
   - [Cover page](cover.md)
 
-- Customization
+- 第二章
 
   - [Configuration](configuration.md)
   - [Themes](themes.md)
@@ -15,7 +15,7 @@
   - [Language highlighting](language-highlight.md)
   - [Emoji](emoji.md)
 
-- Guide
+- 第三章
 
   - [Deploy](deploy.md)
   - [Helpers](helpers.md)
@@ -25,5 +25,4 @@
   - [Server-Side Rendering (SSR)](ssr.md)
   - [Embed Files](embed-files.md)
 
-- [Awesome docsify](awesome.md)
-- [Changelog](changelog.md)
+

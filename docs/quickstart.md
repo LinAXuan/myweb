@@ -1,10 +1,61 @@
-# Quick start
+# 诗歌
 
-It is recommended to install `docsify-cli` globally, which helps initializing and previewing the website locally.
-
+以下是代码
 ```bash
-npm i docsify-cli -g
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>古代诗歌五首</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="poetry-title">古代诗歌<img src="shige.png" alt=""></span>
+            <hr>
+        </div>
+        <h1>古代诗歌五首</h1>
+        <ul>
+            <li><span class="title">《竹里馆》</span> <span class="text">独坐幽篁里，</span><span class="special-text">弹琴复长啸</span>。<span class="text">深林人不知，明月来相照。</span></li>
+            <li><span class="title">《春夜洛城闻笛》</span> <span class="text">谁家玉笛暗飞声，</span><span class="special-text">散入春风满洛城</span>。<span class="text">此夜曲中闻折柳，何人不起故园情。</span></li>
+            <li><span class="title">《逢入京使》</span> <span class="text">故园东望路漫漫，双袖龙钟泪不干。马上相逢无纸笔，凭君传语报平安。</span></li>
+            <li><span class="title">《晚春》</span> <span class="text">草树知春不久归，百般红紫斗芳菲。杨花榆荚无才思，惟解漫天作雪飞。</span></li>
+            <li><span class="title">《登飞来峰》</span> <span class="text">飞来山上千寻塔，闻说鸡鸣见日升。不畏浮云遮望眼，自缘身在最高层。</span></li>
+        </ul>
+    </div>
+</body>
+</html>
 ```
+最终效果
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>古代诗歌五首</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="poetry-title">古代诗歌<img src="images/shige.png" alt=""></span>
+            <hr>
+        </div>
+        <h1>古代诗歌五首</h1>
+        <ul>
+            <li><span class="title">《竹里馆》</span> <span class="text">独坐幽篁里，</span><span class="special-text">弹琴复长啸</span>。<span class="text">深林人不知，明月来相照。</span></li>
+            <li><span class="title">《春夜洛城闻笛》</span> <span class="text">谁家玉笛暗飞声，</span><span class="special-text">散入春风满洛城</span>。<span class="text">此夜曲中闻折柳，何人不起故园情。</span></li>
+            <li><span class="title">《逢入京使》</span> <span class="text">故园东望路漫漫，双袖龙钟泪不干。马上相逢无纸笔，凭君传语报平安。</span></li>
+            <li><span class="title">《晚春》</span> <span class="text">草树知春不久归，百般红紫斗芳菲。杨花榆荚无才思，惟解漫天作雪飞。</span></li>
+            <li><span class="title">《登飞来峰》</span> <span class="text">飞来山上千寻塔，闻说鸡鸣见日升。不畏浮云遮望眼，自缘身在最高层。</span></li>
+        </ul>
+    </div>
+</body>
+</html>
+
 
 ## Initialize
 
