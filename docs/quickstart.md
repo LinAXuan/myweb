@@ -1,6 +1,6 @@
 # 诗歌
 
-以下是代码
+##### 以下是代码
 ```bash
 <!DOCTYPE html>
 <html lang="zh-CN">
@@ -28,10 +28,17 @@
 </body>
 </html>
 ```
-### 最终效果
-<a href="html/诗歌.html" target="_blank">点击这里访问网站</a>
+#### 最终效果
+<div id="your-container">这里将加载外部内容。</div>
 
-
+<script>
+    fetch('html/诗歌.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('your-container').innerHTML = data;
+        })
+        .catch(error => console.error('加载内容时出错:', error));
+</script>
 
 ## Initialize
 

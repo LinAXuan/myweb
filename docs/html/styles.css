@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+}
+@font-face {
+    font-family: aaa;
+    src: url(FZJZJW.TTF);
+}
+.container {
+    width: 54%;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 25px;
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.poetry-title {
+    font-size: 30px;
+    display: block;
+    text-align: left; /* 左对齐 */
+    margin-bottom: 5px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid black; /* 黑色横线 */
+    margin: 0;
+}
+
+h1 {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    text-align: center; /* 标题居中 */
+    font-family: 'aaa'; /* 设置为楷体 */
+    letter-spacing: 5mm;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.title {
+    color: red;
+    font-weight: bold;
+}
+
+.text {
+    color: black; /* 普通正文为黑色 */
+}
+
+.special-text {
+    color: blue; /* 特殊的两句为蓝色 */
+}
+
+/* 当鼠标悬停在小标题时，正文变为红色并加上下划线 */
+.title:hover ~ .text,
+li:hover .text {
+    color: red;
+    text-decoration: underline;
+}
+
+/* 保持特殊文本为蓝色，但加上下划线 */
+li:hover .special-text {
+    color: blue;
+    text-decoration: underline;
+}
